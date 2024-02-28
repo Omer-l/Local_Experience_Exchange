@@ -1,0 +1,19 @@
+{
+  "name": "lee",
+  "version": "1.0.0",
+  "description": "share your experience",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Omer-l/Local_Experience_Exchange.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Omer-l/Local_Experience_Exchange/issues"
+  },
+  "homepage": "https://github.com/Omer-l/Local_Experience_Exchange#readme"
+}
