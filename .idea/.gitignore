@@ -20,7 +20,7 @@ npm-debug.log*
 
 # Environment variables
 .env
-
+.cache
 # Dependency lock files
 package-lock.json
 yarn.lock
