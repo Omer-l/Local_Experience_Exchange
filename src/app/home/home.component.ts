@@ -2,6 +2,7 @@ import {Component} from '@angular/core';
 import {CommonModule} from '@angular/common';
 import {RouterOutlet} from '@angular/router';
 import {HousingLocationComponent} from '../housing-location/housing-location.component';
+import {HousingLocation} from '../housinglocation'
 @Component({
   selector: 'app-home',
   standalone: true,
@@ -19,4 +20,17 @@ import {HousingLocationComponent} from '../housing-location/housing-location.com
   `,
   styleUrls: ['./home.component.scss'],
 })
-export class HomeComponent {}
+export class HomeComponent {
+  readonly baseUrl = 'https://angular.dev/assets/tutorials/common';
+
+  housingLocation: HousingLocation = {
+    id: 0,
+    name: 'Test Home',
+    city: 'Test City',
+    state: 'Test State',
+    photo: '{this.baseURL}/example-house.jpg',
+    availableUnits: 2,
+    wifi: true,
+    laundry: true,
+  }
+}
